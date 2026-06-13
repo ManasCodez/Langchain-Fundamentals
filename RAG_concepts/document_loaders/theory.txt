@@ -1,0 +1,10 @@
+Docuement loaders are the lagnchain components used for loading Docuements from various sources into a Standardized format which is **Docuement object** , which can later be used for chunking , emmbedding, retriver and generation
+
+
+Docuement(
+    page_content= "the actual page content",
+    metadata= {
+        source: " ... ",
+        ....
+    }
+)

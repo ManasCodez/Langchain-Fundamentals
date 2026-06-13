@@ -1,0 +1,19 @@
+output parsers in langchain helps in converting the raw llm responses into structured output like json , csv ,Pydantic models, and more. they ensure consistency, validation and ease of use 
+
+the important output parsers are : 
+    string output parsers
+    json output parsers
+    structured output parsers
+    Pydantic output parsers
+
+
+strOutputparser returns the content from the output of the model , but we can do it using the result.content method, so what is the use of strOutputparser,
+its main use comes when we are working with chains and thats important
+
+
+
+JsonOutputParser: doesn't impose a schema, the llm gives the key values according to it 
+
+
+(removed from the langchain)
+StructuredOutputParser: we can give the llm schema or the output format in which it should return the output 

@@ -1,0 +1,9 @@
+LCEL (langchain exprssion language)
+
+we observe that RunnableSequence  is frequently used runnable primitive, so instead of writing like 
+
+RunnableSequence(r1,r2,r3)
+
+we can write it as 
+
+r1|r2|r3

@@ -1,0 +1,17 @@
+there are three types of structuresd output :
+    1. TypedDict
+    2. Pydantic
+    3. json_schema
+
+TypedDict : way to define python dictionary where you specify what key, value shoul exist
+It only alerts that the datatype is different from what should be, but you can use other datatype. so it don't validate data at runtime     
+** model can make errors in datatype and restrictions
+
+
+
+
+Pydantic: it is a data validation and data parsing brary in python, it ensures that the data is correct, structured and type-safe
+
+
+
+json_schema: used when you are using multiple language like python in backend and js in frontend , the returned output from the model is a dictionary just like the TypedDict
