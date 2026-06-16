@@ -34,3 +34,16 @@ scikit-learn
 
 #streamlit for ui
 streamlit
+
+youtube_transcript_api
+
+langchain
+
+langchain_core
+
+langchain_text_splitters
+langchain_community
+chromadb
+
+
+langchain_ollama

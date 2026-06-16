@@ -1,4 +1,5 @@
 from langchain_chroma import Chroma
+from langchain_pinecone import pinecone
 from langchain_ollama import OllamaEmbeddings
 from langchain_core.documents import Document
 
